@@ -8,12 +8,10 @@ body{
 }
 .container{
     width: 100%;
-
 }
 /*navbar*/
 nav{
     background-color: rgba(20, 14, 12, 0.5);
-
     /* background-color: #3e251a; */
     display: flex;
     flex-direction: row;
@@ -75,13 +73,11 @@ ul .li-item-rd:hover::after{
 ul .li-item-rdblog:hover::after{
     content: "";
     display: block;
-    /* background-color: #8d3b21; */
     border-bottom: 4px solid #8d3b21 ;
     transition: 1s ;
     width: 3.6%;
     padding: 0.15rem;
 }
-/* blog  */
 /* Blog preview styling */
 .blog-preview {
     display: none;
@@ -122,7 +118,6 @@ header{
     background-image: url("./images/banner-bg.png");
     width: 100%;
     height: 100vh;
-    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -135,9 +130,7 @@ header{
 }
 .header-content{
     width: 60%;
-    /* background-color: green; */
     text-align: center;
-
     /* hero image */
     position: absolute;
     top: 50%;
@@ -164,13 +157,10 @@ header{
     text-transform: capitalize;
     margin-top: 1rem;
  }
-
  .btn:hover {
     opacity: 0.6 ;
     cursor: pointer;
  }
-
-
  .btn2 {
     background-color: #8d3b21;
     color: #fff;
@@ -204,7 +194,6 @@ header{
     max-width: 1200px;
     gap: 20px;
 }
-
 /* Individual card styling */
 .card {
     background-color: #f9f9f9;
@@ -217,14 +206,12 @@ header{
     z-index: 0;
     overflow: hidden;
 }
-
 /* Title styling */
 .card h2 {
     color: #333;
     font-size: 1.5em;
     margin-bottom: 17px;
 }
-
 /* Paragraph styling */
 .card p {
     color: #666;
@@ -236,7 +223,6 @@ header{
     color: #8d3b21;
     font-size: 22px;
 }
-
 .ltr{
     position: relative;
 }
@@ -283,7 +269,6 @@ header{
 .featured-works {
     background-color: #eee;
     height: 130vh;
-
 }
 .feature-title{
     text-align: center;
@@ -392,7 +377,6 @@ header{
     transform: translateY(-50%);
     color: #b6968b;
 }
-
 .icon-coffee-cup::before {
     content: "\f0f4"; /* Example FontAwesome coffee cup icon */
     font-family: "FontAwesome";
@@ -443,7 +427,6 @@ header{
 .why-choose-us {
     display: flex;
     align-items: center;
-    /* padding: 50px; */
     background-color: #eee;
     height: 90vh;
 }
@@ -452,7 +435,6 @@ header{
 }
 .choose-title{
     font-size: 32px;
-    /* padding: 2rem; */
     margin: 3rem auto;
  }
  .choose-title:after{
@@ -638,18 +620,13 @@ header{
 }
 .pricing-header-container{
     background-color: white;
-    /* margin: 4rem; */
 }
-
-
-
 .pricing-price {
     font-size: 20px;
     color: #777;
     transition: color 0.3s ease;
     position: relative;
 }
-
 .pricing-card:hover .pricing-title,
 .pricing-card:hover .pricing-price h3,
 .pricing-card:hover .pricing-price .month {
@@ -664,7 +641,6 @@ header{
     background-attachment: fixed;
     width: 100%;
     height: 40vh;
-    /* background-color: white; */
 }
 .customer-content{
     width: 90%;
@@ -681,8 +657,6 @@ header{
     display: flex;
     justify-content: center;
     color: white;
-    /* transform: translateY(90px); */
-    /* gap: 3rem; */
     overflow: hidden;
     width: 90%;
     margin:1rem auto;
@@ -830,7 +804,6 @@ header{
     gap: 4rem;
     text-align: center;
     margin: 2rem auto;
-    /* position: relative; */
 }
 .news-parent{
     position: relative;
@@ -861,9 +834,8 @@ header{
 }
 ul li{
     list-style: none;
-    /* display: flex; */
 }
-ul{
+.news-info ul{
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -941,7 +913,6 @@ footer p{
     color:  #595351;
     margin-bottom: 3rem;
 }
-
 /* Responsive Design: Adjust for smaller screens */
 @media (max-width: 768px) {
     .card-fcard {
@@ -1009,13 +980,8 @@ footer p{
     .news-container{
         flex-direction: column;
     }
-
 }
-
 @media (max-width: 480px) {
-    .card-fcard {
-        flex: 1 1 100%; /* 1 card per row */
-    }
     body{
         font-size: 60%;
     }
