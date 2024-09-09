@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f4f4f4; */
+    background: -webkit-linear-gradient(190deg,#F9F5F6,#FFF7F1,#F7EFE5);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.car {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    animation-timing-function: linear;
+    transition: 1s;
+}
+.car:hover{
+    animation-play-state: paused;
+    transform: rotate(90deg);
+}
+
+.car img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.car1 {
+    top: 20px;
+    left: 45px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    }
+@keyframes move {
+
+    10%  { left: 20%; }
+    50%  { left: 65%; }
+    100% { left: 100%; 
+           left: 950px;}
+
+}
+
+.car2 {
+    animation-delay: 3s;
+    transform: translateY(-160px);
+    right: 45px;
+    animation-name: movenext;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes movenext {
+
+    10%  { right: 20%; }
+    50%  { right: 65%; }
+    100% { right: 100%; 
+           right: 950px;}
+
+}
+
+.car3 {
+    animation-delay: 12s;
+    transform: translateY(400px);
+    left: 45px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.car4 {
+    animation-delay: 6s;
+    left: 45px;
+    transform: translateY(25px);
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.car5 {
+    animation-delay: 9s;
+    transform: translateY(210px);
+    right: 45px;
+    animation-name: movenext;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.car6 {
+    animation-delay: 15s;
+    transform: translatey(600px);
+    right: 45px;
+    animation-name: movenext;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
