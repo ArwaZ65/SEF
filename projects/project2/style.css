@@ -613,9 +613,9 @@ position: relative;
         line-height: 15px;
     }
     .products-items{
-        grid-template-columns: repeat(2,200px);
-    }
-    
+        grid-template-columns: repeat(2,1fr);
+        /* transform: translate(50%,50%); */
+    }   
 }
 /* Mobile (max-width: 600px) */
 @media (max-width: 600px) {
@@ -663,9 +663,9 @@ position: relative;
         transform: none;
     }
     .category-item{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     .products-items{
-        grid-template-columns: repeat(1,200px);
+        grid-template-columns: repeat(1,1fr);
     }
 }
