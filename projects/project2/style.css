@@ -80,7 +80,7 @@ ul li{
     border: 2px solid var(--maincolor);
     background-color: var(--mainbody);
     padding: 15px;
-    margin-top: 5px;
+    margin-top: 16px;
     transform: scale(0);
     transition: transform 0.5s , visibility .5s;
     opacity: 0;
