@@ -1,0 +1,129 @@
+.bg-blue-lightest{background-color:#DFF2EB!important}
+.bg-blue-lighter{background-color:#B9E5E8!important}
+.bg-blue{background-color:#7AB2D3!important}
+.bg-blue-dark{background-color:#5a86a0!important}
+.bg-indigo{color:#1834a4!important}
+.text-gradient{background: linear-gradient(180deg, #1834a4, #ff0072); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+.body-main-color{background-color:rgb(223, 219, 219)!important}
+.dropdown-menu {z-index: 1050;}
+.navbar {
+    position: relative; /* Ensure navbar is positioned relative to the document */
+    z-index: 1000; /* Lower z-index than dropdown but higher than carousel */
+}
+.card-custom{
+    max-height: 550px; 
+    object-fit: cover;
+   }
+   .bg-dark-opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+   }.card-gallery{
+    height: 320px; object-fit: cover;
+   }
+.card-hover {
+    position: relative;
+    overflow: hidden;
+}
+.nav-item:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 5px 3px 1px #DFF2EB;
+}
+/* First Overlay (top-left) */
+.card-hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(173, 216, 230, 0.6); /* Light blue */
+    transition: width 1s ease, height 0.5s ease;
+    z-index: 100;
+}
+/* Hover effect for first overlay */
+.card-hover:hover::before {
+    width: 100%;
+    height: 100%;
+}
+/* Second Overlay (bottom-right) */
+.card-hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(173, 216, 230, 0.4); /* Lighter blue */
+    transition: width 1s ease, height 0.5s ease;
+    z-index: 100;
+}
+/* Hover effect for second overlay */
+.card-hover:hover::after {
+    width: 100%;
+    height: 100%;
+}
+.thank-card{height: 450px; background-image: url('/images/arwa.jpg'); background-size: cover; background-position: center;}
+.thank-card:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.thank-card:hover .ovarlay{background:linear-gradient(to bottom, rgba(0, 164, 252, 0.1), rgba(1, 82, 126, 0.6))}
+.diagonal-img {
+    object-fit: cover;
+    min-height: 380px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%);
+}
+.diagonal-img2{
+    object-fit: cover;
+    min-height: 380px;
+    clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+.card-title.display-4 {
+    font-size: 2rem; 
+    font-weight: 500;
+}
+.card-podcast img {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+.card-podcast:hover img{
+    transform: scale(1.1);overflow: hidden;
+}
+.card-podcast-header:after,.card2-podcast-header:after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 22%;
+    border: 2px solid #185ad4;
+    border-radius: 5px;
+    margin: 10px 1px;
+    
+}
+.card-podcast:hover .card-podcast-header:after,.card-podcast:hover .card2-podcast-header:after{
+    width: 26%;
+    transition: 1s ease-in-out;
+}
+.card2-podcast-header:after{
+    border: 2px solid #049e28;
+}
+.link:hover{
+    transform: scale(1.1);
+    color: #DFF2EB;
+}
+.social-links-hover:hover {
+    color: #B9E5E8;
+    transform: scale(1.1);
+}
+@media (max-width: 768px){
+    .card-podcast img {
+        width: 100%;
+    }
+    .diagonal-img{
+        clip-path: none;
+        min-height: auto;
+    }
+    .diagonal-img2{
+        clip-path: none;
+        min-height: auto;
+    }
+
+}
