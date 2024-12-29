@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "Moisturizing Cream",
+        "category": "Skincare",
+        "price": 15.99,
+        "image": "/assets/images/product-01.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "Face Wash",
+        "category": "Cleansing",
+        "price": 8.99,
+        "image": "/assets/images/product-02.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Sunscreen",
+        "category": "Skincare",
+        "price": 12.99,
+        "image": "/assets/images/product-03.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Exfoliating Scrub",
+        "category": "Skincare",
+        "price": 10.49,
+        "image": "/assets/images/product-04.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Lip Balm",
+        "category": "Lip Care",
+        "price": 3.99,
+        "image": "/assets/images/product-05.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Anti-Aging Serum",
+        "category": "Skincare",
+        "price": 25.99,
+        "image": "/assets/images/product-06.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Facial Mask",
+        "category": "Skincare",
+        "price": 9.99,
+        "image": "/assets/images/product-07.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Hand Cream",
+        "category": "Hand Care",
+        "price": 7.49,
+        "image": "/assets/images/product-08.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Body Lotion",
+        "category": "Body Care",
+        "price": 14.49,
+        "image": "/assets/images/product-09.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Shampoo",
+        "category": "Hair Care",
+        "price": 6.99,
+        "image": "/assets/images/product-10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Body Lotion",
+        "category": "Body Care",
+        "price": 14.49,
+        "image": "/assets/images/product-11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Shampoo",
+        "category": "Hair Care",
+        "price": 6.99,
+        "image": "/assets/images/product-15.jpg"
+    }
+]

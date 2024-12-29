@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - SkinCare Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar-register">
+        <div class="logo-register">GLOWING</div>
+        <a href="index.html" class="nav-link-register">Home</a>
+    </nav>
+
+    <main class="form-container">
+        <h1 class="register-title">Log In</h1>
+        <form id="login-form">
+            <label for="email" class="em-label">Email</label>
+            <input type="email" id="email" name="email" required class="em-input">
+            <label for="password" class="pass-label">Password</label>
+            <input type="password" id="password" name="password" required class="pass-input">
+            <div class="remember-me">
+                <input type="checkbox" id="remember" class="remember-checkbox">
+                <label for="remember" class="remember-label">Remember me</label>
+            </div>
+            <button type="submit" class="submit-btn">Log In</button>
+        </form>
+        <p class="reg-p">Don't have an account? <a href="register.html">Register</a></p>
+    </main>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

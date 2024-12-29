@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+        <!-- fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+        <!-- icons  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar-cart">
+        <div class="logo-cart">GLOWING</div>
+        <div class="nav-links-cart">
+            <a href="index.html">Home</a>
+            <button id="logout-btn-cart">Logout</button>
+        </div>
+    </nav>
+
+    <main class="cart-page-container">
+        <section class="cart-section">
+            <ul id="cart-list" class="item-list-cart"></ul>
+            <h2 class="price-title">Total: <span id="total-price">0.00$</span></h2>
+        </section>
+        <hr>
+
+        <section class="favorites-section">
+            <h1>Favorite Items</h1>
+            <ul id="favorites-list" class="item-list-fav"></ul>
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GLOWING Shop. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>

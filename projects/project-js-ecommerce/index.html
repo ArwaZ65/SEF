@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="bf-navbar">
+        <div class="hr-container">
+            <p>Free Shipping On All U.S. Orders $50+</p>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="logo"><img src="./assets/images/logo.png" alt="logo"></div>
+        <span id="user-info" class="hidden">Hello, <span id="username"></span></span>
+        <div class="nav-links">
+            <button id="register-btn" class="register-btn"><a href="register.html">Register</a></button>
+            <button id="login-btn" class="login-btn"><a href="login.html">Login</a></button>
+            <div id="cart-icons" class="cart-container hidden">
+                <i class="fa-solid fa-cart-shopping "></i>
+                <span id="cart-count">0</span>
+                <p class="cart-name"><a href="cart.html">Cart</a></p>
+                <button id="cart-arrow">&#9660;</button>
+                <ul id="cart-items" class="hidden">bb</ul>
+            </div>
+            
+            <button id="logout-btn" class="hidden nav-link-register">Logout</button>
+        </div>
+    </nav>
+
+    <header class="search-section">
+        <select id="search-type">
+            <option value="item">Search by Item</option>
+            <option value="category">Search by Category</option>
+        </select>
+        <input type="text" id="search-bar" placeholder="Type to search...">
+    </header>
+    
+    
+
+    <main id="products-section">
+        <div id="product-list" class="product-list"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GLOWING Shop. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/home.js"></script>
+</body>
+</html>
