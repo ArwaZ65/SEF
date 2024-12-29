@@ -6,7 +6,7 @@ This is a simple e-commerce website project built using HTML, CSS, and JavaScrip
 
 The project is structured as follows:
 
-ecommerce/
+ecommerce/                                                                                                                                               
 │
 ├── assets/              
 │   ├── images/          # Contains all the product images
