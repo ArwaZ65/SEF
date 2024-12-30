@@ -18,7 +18,8 @@ This is a simple e-commerce website project built using HTML, CSS, and JavaScrip
 1. **Clone the repository** to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/ecommerce.git
+   git clone https://github.com/your-username/projects/project-js-ecommerce.git
+
 
 
 ### Key Enhancements:
